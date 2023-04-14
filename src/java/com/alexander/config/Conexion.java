@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 
 public class Conexion {
     Connection con;
-    String url="jdbc:mysql://localhost:3306/bdcarritocompras";
+    String url="jdbc:mysql://root:vft1Sn7O7WdMBlmY4vbX@containers-us-west-11.railway.app:8072/railway";
     String user="root";
-    String pass="12345678";
+    String pass="vft1Sn7O7WdMBlmY4vbX";
     public Connection getConnection(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
